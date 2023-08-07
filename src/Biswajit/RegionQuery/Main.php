@@ -8,8 +8,6 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 
 class Main extends PluginBase implements Listener {
-	
- private $config;
     
     public function onEnable() : void {
       $this->getServer()->getPluginManager()->registerEvents($this, $this);
