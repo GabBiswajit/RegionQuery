@@ -15,6 +15,13 @@ class Main extends PluginBase implements Listener {
       $this->getServer()->getPluginManager()->registerEvents($this, $this);
       $this->saveResource("config.yml");
       $this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML, array());
+       $version = $this->getDescription()->getVersion();
+        $configVer = $this->getConfig()->get("version");
+        if(version_compare($version, $configVer, "<>")) {
+            $this->getLogger()->warning("Plugin version does not match config version. Disabling plugin...");
+            $this->getServer()->getPluginManager()->disablePlugin($this);
+            return;
+        }
     }
     public function onPlayerMove(PlayerMoveEvent $event) {
         $player = $event->getPlayer();
