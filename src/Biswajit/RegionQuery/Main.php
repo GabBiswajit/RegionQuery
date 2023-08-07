@@ -7,10 +7,9 @@ use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 
-final class Main extends PluginBase implements Listener {
-
-    /** @var Config */
-    private $config;
+class Main extends PluginBase implements Listener {
+	
+ private $config;
     
     public function onEnable() : void {
       $this->getServer()->getPluginManager()->registerEvents($this, $this);
