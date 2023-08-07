@@ -1,0 +1,47 @@
+# Don't Touch This Only Plugin Author Can Change This!
+version: 1.0.0
+
+# Set Your Information Here ;
+WorldName1: "EliteGames" # Change EliteGames To Your World Name !
+Position1X: 22 # Change 22 To Your World X Position !
+Position1Y: 6 # Change 6 To Your World Y Position !
+Position1Z: 13 # Change 13 To Your World Z Position !
+Message1: "§l§eWelcome To Mine" # Change The Message What You Want !
+
+# 2nd Position
+WorldName2: "EliteGames" # Change EliteGames To Your World Name !
+Position2X: 68 # Change 68 To Your World X Position !
+Position2Y: 7 # Change 7 To Your World Y Position !
+Position2Z: 137 # Change 137 To Your World Z Position !
+Message2: "§l§eWelcome To Farm" # Change The Message What You Want !
+
+# 3nd Position
+WorldName3: "EliteGames" # Change EliteGames To Your World Name !
+Position3X: 78 # Change 78 To Your World X Position !
+Position3Y: 7 # Change 7 To Your World Y Position !
+Position3Z: 37 # Change 37 To Your World Z Position !
+Message3: "§l§eWelcome To Bank" # Change The Message What You Want !
+
+# 4nd Position
+WorldName4: "EliteGames" # Change EliteGames To Your World Name !
+Position4X: 98 # Change 98 To Your World X Position !
+Position4Y: 87 # Change 87 To Your World Y Position !
+Position4Z: 57 # Change 57 To Your World Z Position !
+Message4: "§l§eWelcome To Forast" # Change The Message What You Want !
+
+# 5nd Position
+WorldName5: "EliteGames" # Change EliteGames To Your World Name !
+Position5X: 18 # Change 18 To Your World X Position !
+Position5Y: 4 # Change 4 To Your World Y Position !
+Position5Z: 87 # Change 87 To Your World Z Position !
+Message5: "§l§eWelcome To Community Shop" # Change The Message What You Want !
+
+# 6nd Position
+WorldName6: "EliteGames" # Change EliteGames To Your World Name !
+Position6X: 188 # Change 198 To Your World X Position !
+Position6Y: 18 # Change 18 To Your World Y Position !
+Position6Z: 977 # Change 977 To Your World Z Position !
+Message6: "§l§eWelcome To Auction House" # Change The Message What You Want !
+
+# Enjoy The Plugin ❤️
+# Make By Biswajit
