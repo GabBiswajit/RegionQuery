@@ -13,8 +13,8 @@ final class Main extends PluginBase implements Listener {
     private $config;
     
     public function onEnable(): void{
-        $this->saveResource("config.yml");
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
+        $this->saveResource("config.yml");
         $version = $this->getDescription()->getVersion();
         $configVer = $this->getConfig()->get("version");
         $this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML, array());
