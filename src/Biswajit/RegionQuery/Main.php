@@ -13,6 +13,7 @@ final class Main extends PluginBase implements Listener {
     private $config;
     
     public function onEnable(): void{
+        $this->saveResource("config.yml");
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $version = $this->getDescription()->getVersion();
         $configVer = $this->getConfig()->get("version");
