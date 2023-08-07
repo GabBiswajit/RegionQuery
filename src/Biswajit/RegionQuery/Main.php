@@ -8,6 +8,8 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 
 class Main extends PluginBase implements Listener {
+
+    private $config;
     
     public function onEnable(): void{
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
@@ -22,7 +24,7 @@ class Main extends PluginBase implements Listener {
  }
     public function onPlayerMove(PlayerMoveEvent $event) {
         $player = $event->getPlayer();
-        $world = $player->getWorld()->getName();
+        $world = $player->getWorld()->getFolderName();
         $position = $player->getPosition();
         $config = $this->getConfig();
 
