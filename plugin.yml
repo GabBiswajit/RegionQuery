@@ -3,4 +3,4 @@ api: 5.0.0
 main: Biswajit\RegionQuery\Main
 version: 1.0.0
 author: Biswajit
-description: "Send Title To Player On Come The Position"
+description: Message Sender On Position.
